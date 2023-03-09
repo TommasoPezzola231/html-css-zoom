@@ -1,0 +1,33 @@
+/*******General********/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.justifyContentFE {
+    justify-content: flex-end;
+}
+
+/*******Header*********/
+header{
+    height: 50px;
+    background-color: black;
+}
+
+section > button {
+    color: white;
+    background-color: lightgray;
+    margin: 5px 5px;
+}
