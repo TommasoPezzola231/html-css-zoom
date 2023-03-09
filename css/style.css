@@ -9,6 +9,11 @@
     display: flex;
 }
 
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .flexWrap {
     flex-wrap: wrap;
 }
@@ -22,6 +27,18 @@ button {
 
 .justifyContentFE {
     justify-content: flex-end;
+}
+
+.justifyContentSB {
+    justify-content: space-between;
+}
+
+.justifyContentC {
+    justify-content: center;
+}
+
+.alignItemsC {
+    align-items: center;
 }
 
 .boxed {
@@ -42,6 +59,18 @@ button {
     left: 0;
 }
 
+.width100 {
+    height: 100%;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.bgLightGray {
+    background-color: lightgray;
+}
+
 /*******Header*********/
 header{
     height: 50px;
@@ -58,14 +87,45 @@ section > button {
 main{
     background-color: black;
     width: 100%;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 50px - 70px);
 }
 
-.flex > section {
-    width: calc(100% / 7);
+.boxed > section {
+    width: calc(100% / 7 - 5px);
+}
+
+div > section > img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 .user {
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/********Footer**********/
+footer {
+    background-color: gray;
+}
+
+footer > div {
+    height: 70px;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer span {
+    margin: 0 10px;
+}
+
+.endMeeting {
+    color: red;
+}
+
+.fa-share-from-square {
+    color: green;
 }
