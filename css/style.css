@@ -92,6 +92,7 @@ main{
 
 .boxed > section {
     width: calc(100% / 7 - 5px);
+    margin: 10px 0;
 }
 
 div > section > img {
